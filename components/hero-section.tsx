@@ -4,7 +4,7 @@ import Link from "next/link"
 
 export function HeroSection() {
   return (
-    <section className="bg-gradient-to-b from-muted/50 to-background py-20">
+    <section className="bg-whiteBackground py-20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center max-w-4xl mx-auto">
           <h1 className="text-4xl md:text-6xl font-bold text-foreground mb-6 text-balance">
@@ -17,7 +17,7 @@ export function HeroSection() {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
-            <Button size="lg" asChild className="text-lg px-8 py-6">
+            <Button variant="celeste" size="lg" asChild className="text-lg px-8 py-6">
               <Link href="/chat">
                 <MessageCircle className="mr-2 h-5 w-5" />
                 Comenzar Chat Gratuito
