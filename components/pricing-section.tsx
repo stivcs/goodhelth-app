@@ -5,7 +5,7 @@ import Link from "next/link"
 
 export function PricingSection() {
   return (
-    <section id="planes" className="py-20">
+    <section id="planes" className="bg-whiteBackground py-20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">Planes de Suscripción</h2>

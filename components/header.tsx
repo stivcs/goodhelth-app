@@ -21,30 +21,26 @@ export function Header() {
     <header className="bg-background border-b border-border">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
-          {/* Logo */}
+          {/* Logos and banner */}
           <Link href="/" className="flex items-center gap-2">
-{/*             <div className="bg-primary rounded-lg p-2">
-              <Brain className="h-6 w-6 text-primary-foreground" />
-            </div> */}
-            <span className="text-xl font-bold text-foreground">
-              GOOD<span className="text-primary">HELTH</span>
-            </span>
+            <img src="/logoGoodHealth.webp" alt="GoodHelth Logo" width={40} height={40} />
+            <img src="/GoodHealth.webp" alt="GoodHelth Logo" width={90} height={10} />
           </Link>
 
           {/* Navigation - Desktop */}
           <nav className="hidden md:flex items-center gap-8">
             {!user && (
               <>
-                <Link href="#servicios" className="text-muted-foreground hover:text-foreground transition-colors">
+                <Link href="#servicios" className="text-whiteBackground hover:text-celeste transition-colors">
                   Servicios
                 </Link>
-                <Link href="#planes" className="text-muted-foreground hover:text-foreground transition-colors">
+                <Link href="#planes" className="text-whiteBackground hover:text-celeste transition-colors">
                   Planes
                 </Link>
-                <Link href="#profesionales" className="text-muted-foreground hover:text-foreground transition-colors">
+                <Link href="#profesionales" className="text-whiteBackground hover:text-celeste transition-colors">
                   Profesionales
                 </Link>
-                <Link href="#contacto" className="text-muted-foreground hover:text-foreground transition-colors">
+                <Link href="#contacto" className="text-whiteBackground hover:text-celeste transition-colors">
                   Contacto
                 </Link>
               </>
@@ -56,10 +52,10 @@ export function Header() {
           <div className="flex items-center gap-4">
             {!user ? (
               <>
-                <Button variant="ghost" asChild className="hidden sm:inline-flex">
+                <Button asChild className="bg-whiteBackground">
                   <Link href="/login">Iniciar Sesión</Link>
                 </Button>
-                <Button asChild>
+                <Button asChild variant="celeste">
                   <Link href="/register">Registrarse</Link>
                 </Button>
               </>

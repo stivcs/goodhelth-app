@@ -5,6 +5,8 @@
   /* Updated color tokens for GoodHelth mental health theme */
   --background: #0070D9; /* Pure white background */
   --whiteBackground: #FFFFFF;
+  --black: #000000;
+  --celeste: #00D9B6;
   --foreground: oklch(0.25 0 0); /* Dark gray text (#374151) */
   --card: oklch(0.98 0.02 142); /* Light green card background (#f0fdf4) */
   --card-foreground: oklch(0.25 0 0); /* Dark gray text on cards */
@@ -45,6 +47,8 @@
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --color-whiteBackground: var(--whiteBackground);
+  --color-celeste: var(--celeste);
+  --color-black: var(--black);
   --color-card: var(--card);
   --color-card-foreground: var(--card-foreground);
   --color-popover: var(--popover);
