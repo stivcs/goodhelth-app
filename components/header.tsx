@@ -23,9 +23,9 @@ export function Header() {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2">
-            <div className="bg-primary rounded-lg p-2">
+{/*             <div className="bg-primary rounded-lg p-2">
               <Brain className="h-6 w-6 text-primary-foreground" />
-            </div>
+            </div> */}
             <span className="text-xl font-bold text-foreground">
               GOOD<span className="text-primary">HELTH</span>
             </span>

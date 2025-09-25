@@ -9,9 +9,9 @@ export function Footer() {
           {/* Logo y descripción */}
           <div className="space-y-4">
             <div className="flex items-center gap-2">
-              <div className="bg-primary rounded-lg p-2">
+{/*               <div className="bg-primary rounded-lg p-2">
                 <Brain className="h-6 w-6 text-primary-foreground" />
-              </div>
+              </div> */}
               <span className="text-xl font-bold text-foreground">
                 GOOD<span className="text-primary">HELTH</span>
               </span>
